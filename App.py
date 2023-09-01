@@ -5,7 +5,14 @@ import os
 # nltk.download('stopwords')
 os.system("python -m spacy download en_core_web_sm")
 os.system("python -m nltk.downloader stopwords")
+os.system("python -m nltk.downloader punkt")
+os.system("python -m nltk.downloader averaged_perceptron_tagger")
+os.system("python -m nltk.downloader universal_tagset")
+os.system("python -m nltk.downloader wordnet")
+os.system("python -m nltk.downloader brown")
+os.system(" python -m nltk.downloader maxent_ne_chunker")
 # spacy.load('en_core_web_sm')
+
 
 import pandas as pd
 import base64, random
