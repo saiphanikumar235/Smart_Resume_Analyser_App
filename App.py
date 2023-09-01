@@ -1,6 +1,7 @@
 import streamlit as st
 import nltk
 import spacy
+import os
 # nltk.download('stopwords')
 os.system("python -m nltk.downloader stopwords")
 spacy.load('en_core_web_sm')
