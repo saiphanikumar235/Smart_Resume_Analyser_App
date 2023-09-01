@@ -5,7 +5,7 @@ import os
 # nltk.download('stopwords')
 os.system("python -m spacy download en_core_web_sm")
 os.system("python -m nltk.downloader stopwords")
-spacy.load('en_core_web_sm')
+# spacy.load('en_core_web_sm')
 
 import pandas as pd
 import base64, random
